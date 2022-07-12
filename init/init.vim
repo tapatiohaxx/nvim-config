@@ -13,7 +13,7 @@ Plug 'https://github.com/preservim/nerdtree'
 Plug 'https://github.com/tpope/vim-commentary'
 Plug 'https://github.com/vim-airline/vim-airline'
 Plug 'https://github.com/ap/vim-css-color'
-Plug 'https://github.com/neoclide/coc.nvim'
+
 Plug 'https://github.com/ryanoasis/vim-devicons'
 Plug 'https://github.com/tc50cal/vim-terminal'
 
@@ -27,3 +27,4 @@ let g:NERDTreeDirArrowExpandable="+"
 let g:NERDTreeDirArrowCollapsible="~"
 
 let g:coc_global_extensions=[ 'coc-powershell']
+:source $VIMRUNTIME/mswin.vim
