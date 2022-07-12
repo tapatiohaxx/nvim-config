@@ -20,5 +20,14 @@ Description: An ever expanding configuration document for my VIM software on Win
 <ul> 
    <li> As stated above, you need to have a version of nvim or vim with ebmedded Python or an environment variable for proper terminal function. </li>
    <li> For any languages you want syntax highlighting for, you should search for that language and CoC highlighting configs and follow instructions to install. </li>
+   <li> You can also add this feature on linux by copying the init file to <code> ~/.vimrc </code>. Run either 
+   <ul>
+      <li> <code> curl -fLo ~/.vim/autoload/plug.vim --create-dirs \
+    https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim </code> <b>
+	to get the vim- plug on Linux vim </li>
+	  <li> <code> sh -c 'curl -fLo "${XDG_DATA_HOME:-$HOME/.local/share}"/nvim/site/autoload/plug.vim --create-dirs \
+       https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim'</code> <b>  to get the vim-plug on nvim linux </li>
+   </ul>
+   </li>
 </ul>
 

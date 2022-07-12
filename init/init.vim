@@ -27,4 +27,5 @@ let g:NERDTreeDirArrowExpandable="+"
 let g:NERDTreeDirArrowCollapsible="~"
 
 let g:coc_global_extensions=[ 'coc-powershell']
-:source $VIMRUNTIME/mswin.vim
+:source  $VIMRUNTIME/mswin.vim 
+
